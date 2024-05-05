@@ -1,0 +1,109 @@
+header {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  z-index: 5; /* 앞으로 빼기위해 */
+}
+header > div {
+  margin: 40px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+  
+}
+header > div:hover {
+  border-bottom: rgb(255, 255, 255) solid 3px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header > div.logo {
+  border-bottom: 0px;
+  background-color: rgb(0, 0, 0,0.6);
+  width: 70px;
+  height: 60px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+div.logopartbox{
+  position: relative;
+  width: 40px;
+  height: 40px;
+  bottom: 60px;
+  left: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+div.logopartbox > div.logopart {
+  width: 25px;
+  height: 25px;
+  border-radius: 30px;
+}
+
+div.wrtLogo > div.logotext {
+  width: 30px;
+  height: 30px;
+  z-index: 4;
+  color: rgba(255, 255, 255, 0.884);
+}
+#logoMain {
+  position: relative;
+  font-size: 50px;
+  top: px;
+  left: px;
+}
+
+#logopart0 {
+  position: relative;
+  bottom: -2px;
+  left: 40px;
+  font-size: 20px;
+  
+}
+#logopart1 {
+  background-color: rgba(255, 0, 0, 0.5);
+  position: relative;
+  top: -0px;
+  left: 7.5px;
+  
+}
+#logopart2 {
+  background-color: rgba(0, 255, 0, 0.5);
+  position: relative;
+  top: -10px;
+  left: 15px;
+}
+#logopart3 {
+  background-color: rgba(0, 0, 255, 0.5);
+  position: relative;
+  top: -35px;
+  left: 0px;
+}

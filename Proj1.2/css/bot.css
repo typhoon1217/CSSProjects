@@ -1,0 +1,17 @@
+div.bottom{
+    padding: 4%;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+div.icons i{
+    margin: 10px;
+    font-size: 30px;
+}
+    
+div.icons i:hover{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+

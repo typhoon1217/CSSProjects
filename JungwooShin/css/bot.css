@@ -1,0 +1,24 @@
+
+.bot_link i{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.482);
+    margin: 10px;
+    font-size: 30px;
+}
+
+.bot_link i:hover{
+    color: var(--color_text2);
+    font-size: 60px;
+}
+.bottom_section .mail :hover{
+    color:rgba(255, 255, 84, 0.745)
+}
+.bottom_section .instagram :hover{
+    color:rgba(255, 84, 187, 0.745)
+}
+.bottom_section .facebook :hover{
+    color:rgba(84, 98, 255, 0.745)
+}
+.bottom_section .youtube :hover{
+    color:rgba(255, 84, 84, 0.745)
+}

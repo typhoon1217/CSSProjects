@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aurora</title>
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap"
+    rel="stylesheet">
+  <!-- css -->
+  <link rel="stylesheet" href="./css/logo.css" />
+  <link rel="stylesheet" href="./css/side_select.css" />
+  <link rel="stylesheet" href="./css/sidemenu.css" />
+  <link rel="stylesheet" href="./css/sidesearch.css" />
+  <link rel="stylesheet" href="./css/sidelogin.css" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/slideshow.css" />
+  <link rel="stylesheet" href="./css/tabmenu.css" />
+  <link rel="stylesheet" href="./css/bot.css" />
+  <!-- <link rel="stylesheet" href="./css/contact.css" /> -->
+  <link rel="stylesheet" href="./css/meet_team.css" />
+  <!-- js -->
+  <script src="./js/main.js"></script>
+  <script src="./js/slideshow.js"></script>
+  <script src="./js/tabmenu.js"></script>
+  <script src="./js/sidemenu.js"></script>
+  <!-- fontawsome -->
+  <script src="https://kit.fontawesome.com/6a2bc27371.js" defer crossorigin="anonymous"></script>
+</head>
+
+<body onload="call_ss_js()">
+  <div id="wrap">
+    <header>
+      <div class="logo" herf="#header" id=tohome>
+        <!-- <div class="wrtLogo">
+          <div class="logotext" id=logoMain>W</div>
+          <div class="logotext" id=logopart0>rt</div>
+          <div class="logopartbox" id="logopartbox">
+            <div class="logopart" id=logopart1></div>
+            <div class="logopart" id=logopart2></div>
+            <div class="logopart" id=logopart3></div> -->
+            <img class="productimg" src="./imgaurora/Logo.png" alt="logo"
+            style="max-width:60px;"
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <div class="head_content">
+      <input type="radio" name="headmenu" id="hed1">
+      <label for="hed1">
+        <section><i class="fa-solid fa-ellipsis"></i></section>
+      </label>
+
+
+      <input type="radio" name="headmenu" id="hed2">
+      <label for="hed2">
+        <section> <i class="fa-solid fa-magnifying-glass"></i></section>
+      </label>
+
+      <input type="radio" name="headmenu" id="hed3" checked>
+      <label for="hed3">
+        <section><i class="fa-regular fa-user"></i></section>
+      </label>
+
+      <input type="radio" name="headmenu" id="hed4" checked>
+      <label for="hed4">
+        <section><i class="fa-solid fa-xmark"></i> </section>
+      </label>
+
+
+      <div class="hedbox hed1">
+        <h3><i class="fa-solid fa-ellipsis"></i> </h3>
+        <div class="Menu_UI">
+          <br>
+          <ul>
+            <li>Advertise</li>
+            <li>Education</li>
+            <li>Merch</li>
+            <li>Team</li>
+            <li>For</li>
+            <li>Web:PRO</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="hedbox hed2">
+        <h3><i class="fa-solid fa-magnifying-glass"></i></h3>
+        <div class="Search_UI">
+          <div class="search_wrap">
+      
+            <form action="#" method="get">
+              <fieldset id="search_field">
+                <div class="sbarea1">
+                  <input type="search" placeholder="Search" id="search1" required>
+                  <button type="submit" class="btn_sbarea"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <br>
+                <div class="sbarea1_invis_recentsearch">
+                  <ul class="recentsearch">
+                  </ul>
+                </div>
+              </fieldset>
+            </form>
+
+          </div>
+        </div>
+      </div>      <!-- end of hedbox boxs2 -->
+      
+      <div class="hedbox hed3">LOGIN
+        <div class="Sign_In_W_LogIn_UI">
+
+        </div>
+      </div>
+    </div>
+
+
+    
+
+
+    <div id="top">
+      <div class="slideshow" style="overflow-x: hidden">
+        <div class="slideshow_slides">
+          <a href="#" id="slide1" style=" background-image: linear-gradient(to bottom left,red, white);">
+
+            <div class="content-infor">
+              <div class="content-infor-2">Nils Keller</div>
+              <div class="content-infor-0"><img src="./img/YQgT.gif" alt="image1"></div>
+              <div class="content-infor-1">Ny.GIF</div>
+              <div class="content-infor-2">Nils Keller</div>
+              <div class="content-infor-3">2022 11 07</div>
+            </div>
+            <div class="content-img">
+              <div class="content-infor-0"><img src="./img/tumblr_1b80b33fedf2f8d30d67e0cfcb119432_200397d0_1280.gif"
+                  alt="image1"></div>
+            </div>
+            <div class="content-img">
+              <div class="content-infor-0"><img src="./img/YQgT.gif" alt="image1"></div>
+            </div>
+
+          </a>
+          <a href="#" id="slide2" style="background-image: linear-gradient(to bottom left,white, blue);">
+           
+            <div class="content-infor">
+              <div class="content-infor-2">Typhoon</div>
+              <div class="content-infor-0"><img src="./img/xk.gif" alt="image1"></div>
+              <div class="content-infor-1">NeonCity.Gif</div>
+              <div class="content-infor-2">Typhoon</div>
+              <div class="content-infor-3">2024 12 17</div>
+            </div>
+            <div class="content-img">
+              <div class="content-infor-0"><img src="./img/source.gif" alt="image1"></div>
+            </div>
+            <div class="content-img">
+              <div class="content-infor-0"><img src="./img/83cf152095bdeb24713093606facc72b.gif" alt="image1"></div>
+              <div class="content-infor-0"><img src="./img/cf2ca4f35eff08e2d8724e2e4b5cdf42.gif" alt="image1"></div>
+            </div>
+
+          </a>
+
+          <a href="#" id="slide3" style="background-image: linear-gradient(to bottom left,green, white);">
+            <div class="content-infor"
+            >
+              <div class="content-infor-2">Invictus</div>
+              <div class="content-infor-0"><img src="./img/Zombie-art-01.png" alt="image1"></div>
+              <div class="content-infor-1">Zombie.png</div>
+              <div class="content-infor-2">Chris Harris</div>
+              <div class="content-infor-3">2012 02 17</div>
+            </div>
+            <div class="content-img">
+              <div class="content-infor-0"><img src="./img/pixel-goust-2.gif" alt="image1"></div>
+              <div class="content-infor-0"><img src="./img/ice.jpg" alt="image1"></div>
+            </div>
+            <div class="content-img">
+              <div class="content-infor-0"><img src="./img/slide-1.jpg" alt="image1"></div>
+              <div class="content-infor-0"><img src="./img/slide-2.png" alt="image1"></div>
+            </div>
+            <div>
+
+            </div>
+
+          </a>
+
+
+      </div>
+      <div class="slideshow_nav">
+
+
+        <a href="#" class="prev"><i class="fa-solid fa-chevron-left"></i></a>
+
+        <div class="indicator">
+          <a href="#" class="active"><i class="fa-solid fa-circle-notch"></i></a>
+          <a href="#"><i class="fa-solid fa-circle-notch"></i></a>
+          <a href="#"><i class="fa-solid fa-circle-notch"></i></a>
+          <a href="#"><i class="fa-solid fa-circle-notch"></i></a>
+
+        </div>
+
+        <a href="#" class="next"><i class="fa-solid fa-chevron-right"></i></a>
+
+
+      </div>
+    </div>
+    </div>
+    <div class="tab_content">
+
+      <input type="radio" name="tabmenu" id="tab01" checked>
+      <label for="tab01">Artist</label>
+      <input type="radio" name="tabmenu" id="tab02">
+      <label for="tab02">Arts</label>
+      <input type="radio" name="tabmenu" id="tab03">
+      <label for="tab03">Community</label>
+      <input type="radio" name="tabmenu" id="tab04">
+      <label for="tab04">About</label>
+      <input type="radio" name="tabmenu" id="tab05">
+      <label for="tab05">Team </label>
+
+      <div class="conbox con1">sdf01
+        asasd
+        <div>
+          asdas
+        </div>
+      </div>
+      <div class="conbox con2">xcbvxvcbbvxc02</div>
+      <div class="conbox con3">xcbvbxvcxbvc03</div>
+      <div class="conbox con4">
+
+        <h2> Wrt</h2>
+        <hr>
+
+
+        <br><br>About Us
+
+        <br><br>Wert is a new art-sharing platform dedicated to fostering creativity and inspiration. We provide a space
+        where artists and creators from various disciplines can come together to share their work and engage in
+        meaningful dialogue.
+
+        <br><br>Our mission is to cultivate a love for art and connect people through artistic expression. Wrt values
+        diverse artistic experiences and perspectives, continually seeking out and supporting creative ideas and works.
+
+        <br><br>Our community respects cultural diversity and creativity, striving to make the world a more beautiful
+        place through art. Committed to an open culture, Wert supports a thriving artistic ecosystem for all artists and
+        creators who come together on our platform.
+        <br>
+        <br><br><br><br>
+        <br><br>Wrt는 창의성과 영감을 나누는 새로운 예술 공유 플랫폼입니다. 우리는 다양한 예술 분야에서 활동하는 예술가들과 창작자들이 모여 서로의 작품을 공유하고 소통할 수 있는 공간을 제공합니다.
+
+        <br><br>우리의 목표는 예술을 사랑하고 예술을 통해 사람들을 연결하는 것입니다. Wert는 예술적으로 다양한 경험과 관점을 존중하며, 창의적인 아이디어와 작품을 지속적으로 발굴하고 지원합니다.
+
+        <br><br>우리의 커뮤니티는 문화적 다양성과 창의성을 존중하며, 예술을 통해 세계를 더욱 아름답게 만들기 위해 노력합니다. 함께하는 모든 예술가와 창작자들을 위해 Wrt는 열린 문화를 실천하며,
+        지속적으로
+        성장하는 예술 생태계를 지원합니다.
+        <br><br><br><br>
+      </div>
+
+
+      <div class="conbox con5">
+
+        <!-- <aside id="con5map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.3782000095966!2d127.03033407640346!3d37.498997227997236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9ec255555555%3A0x3565475c3365c5bb!2zS0jsoJXrs7TqtZDsnKHsm5A!5e0!3m2!1sko!2skr!4v1714669834721!5m2!1sko!2skr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </aside>
+
+        <div class="contactbox" id="contactbox1">
+
+          <div>
+            <div class="contact-infor">
+              <p>Viccy</p>
+              <p>HeadDev</p>
+            </div>
+          </div>
+
+          <div class="contactcard" id="contactcard1">
+            <div class="contact-list">
+              <p>About</p>
+              <a>dasdasd
+              </a>
+            </div>
+          </div>
+
+          <div class="contactcard" id="contactcard2">
+            <div class="contact-list">
+              <p>Social</p>
+              <a href="mailto:viccy5421@wrt.org"><i class="fa-regular fa-envelope"></i></a>
+              <a href="https://www.instagram.com/viccy5421/"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.facebook.com/viccy5421"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.youtube.com/viccy5421"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+          </div>
+
+          <div class="contactcard" id="contactcard5">
+            <div class="contact-list">
+              <p>Abou</p>
+              <a href="mailto:viccy5421@wrt.org"><i class="fa-regular fa-envelope"></i></a>
+              <a href="https://www.instagram.com/viccy5421/"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.facebook.com/viccy5421"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.youtube.com/viccy5421"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="contactcard" id="contactcard7">
+            <div class="contact-list">
+              <p>Social</p>
+              <a href="mailto:viccy5421@wrt.org">viccy5421@wrt.org</a><br>
+               </div>
+          </div>
+          <div class="contactcard" id="contactcard6">
+            <div class="contact-list">
+              <p>PhoneNum</p>
+              <a href="tel:+821012345678">82 10 1234 5678</a><br>
+            </div>
+          </div>
+
+          <div class="contactcard" id="contactcard3">
+            <div class="contact-list">
+              <p>Address</p>
+              <a href="https://goo.gl/maps/">123 Street, City, Country</a>
+            </div>
+          </div>-->
+        </div> 
+      </div>      <!-- end of con box5 -->
+
+
+      <div class="bottom">
+        <footer>
+          <div class="logo">
+            <div class="wrtLogo">
+              <div class="logotext" id=logoMain>W              </div>
+              <div class="logotext" id=logopart0>rt</div>
+              <div class="logopartbox" id="logopartbox">
+                <div class="logopart" id=logopart1></div>
+                <div class="logopart" id=logopart2></div>
+                <div class="logopart" id=logopart3></div>
+              </div>
+            </div>
+          </div><!-- end of logo -->
+          <h3>Wrt:webArtGallay</h3>
+          <div class="bottom_section">
+            <a class= "bot_link mail" href="mailto:viccy5421@wrt.org"><i class="fa-regular fa-envelope"></i></a>
+            <a class= "bot_link instagram" href="https://www.instagram.com/viccy5421/"><i class="fa-brands fa-instagram"></i></a>
+            <a class= "bot_link facebook" href="https://www.facebook.com/viccy5421"><i class="fa-brands fa-facebook"></i></a>
+            <a class= "bot_link youtube" href="https://www.youtube.com/viccy5421"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+
+          <div>
+            <p>©2024 Wrt.org </p>
+            <p>©2024 Wrt.org </p>
+            <p>©2024 Wrt.org </p>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

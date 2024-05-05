@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>최근 검색</title>
+    <style>
+        /* CSS 스타일 */
+        #recentSearches {
+            list-style-type: none;
+            padding: 0;
+        }
+        #recentSearches li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>최근 검색</h1>
+    <input type="text" id="searchInput" placeholder="검색어를 입력하세요">
+    <button onclick="addSearch()">검색</button>
+    <ul id="recentSearches"></ul>
+
+    <script>
+        // JavaScript 코드
+        // 최근 검색어를 저장할 배열
+        let recentSearches = [];
+
+        // 페이지가 로드될 때 최근 검색어를 불러와서 표시
+        window.onload = function() {
+            loadRecentSearches();
+        };
+
+        // 검색어를 추가하는 함수
+        function addSearch() {
+            let searchInput = document.getElementById('searchInput');
+            let searchTerm = searchInput.value.trim();
+            if (searchTerm !== '') {
+                recentSearches.unshift(searchTerm);
+                // 최근 검색어 배열을 로컬 스토리지에 저장
+                localStorage.setItem('recentSearches', JSON.stringify(recentSearches));
+                displayRecentSearches();
+                searchInput.value = '';
+            }
+        }
+
+        // 최근 검색어를 로컬 스토리지에서 불러오는 함수
+        function loadRecentSearches() {
+            let storedSearches = localStorage.getItem('recentSearches');
+            if (storedSearches) {
+                recentSearches = JSON.parse(storedSearches);
+                displayRecentSearches();
+            }
+        }
+
+        // 최근 검색어를 화면에 표시하는 함수
+        function displayRecentSearches() {
+            let recentSearchesList = document.getElementById('recentSearches');
+            recentSearchesList.innerHTML = '';
+            recentSearches.forEach(function(searchTerm) {
+                let listItem = document.createElement('li');
+                listItem.textContent = searchTerm;
+                recentSearchesList.appendChild(listItem);
+            });
+        }
+    </script>
+</body>
+</html>

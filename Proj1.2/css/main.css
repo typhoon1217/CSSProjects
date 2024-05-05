@@ -1,0 +1,27 @@
+/* 측면 스크롤 막아야됨 */
+* {
+  transition: all 0.5s;
+}
+body {
+  background-image: linear-gradient(to bottom left,blue, red);      
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-family: "Quicksand", "Noto Sans KR", sans-serif;
+}
+
+#wrap {
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  margin: 0 auto;
+  align-content: center;
+}
+/* 반투명 상단바 */
+/* incomp */
+
+div.bottom {
+  height: 400px;
+  width: 100%;
+  background-image: linear-gradient(to top left,gray, black);    
+}

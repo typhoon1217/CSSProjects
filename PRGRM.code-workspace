@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../PRGRM"
+		},
+		{
+			"path": "../Proj1.2"
+		},
+		{
+			"path": "../Proj1 copy"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Proj1 copy"
+	}
+}

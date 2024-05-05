@@ -1,0 +1,22 @@
+div.conbox con5{
+    display: flex;
+}
+div.contactcard{
+    width:600px;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 50px;
+}
+
+#contactcard1{
+    background-image: linear-gradient(to top left, blue, green)
+}
+
+#contactcard2{
+    background-image: linear-gradient(to top left, blue, RED)
+}
+
+#contactcard3{
+    background-image: linear-gradient(to top left, blue, YELLOW)
+}
+

@@ -1,0 +1,141 @@
+/* slide show */
+.slideshow {
+  width: 100%;
+  background-color: black;
+  height: 800px;
+  min-width: 960px;
+  position: relative;
+  z-index: 0;
+  /* border: 1px solid red; */
+  /* overflow: hidden; */
+}
+.slideshow_slides {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* border: 5px dotted red; */
+}
+/* 4장의 이미지를 기준점으로 모두 이동 */
+.slideshow_slides a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  font-size: 30px;
+  color: #fff;
+  text-decoration-line: none;
+}
+/* #slide1 {
+  background-color: url("../img/slide-1.jpg");
+  background-size: cover;
+}
+#slide2 {
+  background-image: url("../img/slide-2.png");
+  background-size: cover;
+}
+#slide3 {
+  background-image: url("../img/slide-3.jpg");
+  background-size: cover;
+}
+#slide4 {
+  background-image: url("../img/slide-4.jpg");
+  background-size: cover;
+} */
+
+div.content-img {
+  width: 30%;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  margin:10px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+div.content-img:hover{
+  width: 40%;
+  height: 650px;
+}
+div.content-infor {
+  width: 15%;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  margin:10px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+div.content-infor:hover{
+  width: 20%;
+  height: 650px;
+}
+
+/*네비게이션네브바를 중앙에 배치*/
+.slideshow_nav {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  margin: auto;
+  text-align: center;
+  height: 60px;
+  width: 100%;
+}
+/* 중앙을기점으로 좌우 이동 */
+.slideshow_nav a.prev,
+.slideshow_nav a.next {
+  display: inline-block;
+  padding: 5px;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.5);
+  opacity: 0.8;
+}
+.slideshow_nav a.prev:hover,
+.slideshow_nav a.next:hover {
+  font-size: 36px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* 인디게이터를 슬라이드쇼 아래 중앙위치 배치 */
+.indicator {
+  display: inline-block;
+}
+.indicator a {
+  display: inline-block;
+  padding: 5px;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.indicator a:hover {
+  font-size: 36px;
+  transform: rotate(90deg);
+  color: rgba(150, 150, 150, 0.5);
+}
+
+.indicator a.active {
+  font-size: 36px;
+  color: rgba(255, 255, 255, 0.5);
+  transform: rotate(180deg);
+}
+
+.indicator a.prev {
+  display: inline-block;
+  padding: 5px;
+  font-size: 24px;
+  color: #fff;
+  opacity: 0.8;
+}
+.indicator a.next {
+  display: inline-block;
+  padding: 5px;
+  font-size: 24px;
+  color: #fff;
+  opacity: 0.8;
+}
+/*endofSlideshow  */

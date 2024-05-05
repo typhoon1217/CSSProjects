@@ -1,0 +1,50 @@
+
+
+.hed2 h3 {
+  color:var(--color_text1);
+  margin-top: 0;
+  font-size: 50px;
+  color: rgb(67, 255, 145);
+  margin-right: 10px;
+}
+.Search_UI{
+    margin-top: 3px;
+    width: 950px;
+    height: 60px;
+    background-color: var(--color_box1);
+    padding:0;
+    border-radius: 50px;
+    text-align: left;
+  }
+  div.search_wrap{
+    margin: 0 autp;
+    padding: 0;
+    border: 3px  rgb(67, 255, 145);
+    height: 60px;
+    width: 750px;
+  }
+  .btn_sbarea{
+    all: unset;
+    color: var(--color_background2);
+  }
+  #search_field{
+    margin: 0;
+    border: 0;
+  }
+  #search1{
+    border: 0;
+    width: 600px;
+    outline:none;
+    background-color: transparent;
+    font-size: 25px;
+  }
+/* 최근 검색 구현 시작 */
+  .sbarea1_invis{
+    margin-top: 3px;
+    width: 950px;
+    height: 600px;
+    background-color: var(--color_box1);
+    padding:0;
+    border-radius: 50px;
+    text-align: left;
+  }
